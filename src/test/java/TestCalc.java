@@ -32,7 +32,12 @@ public class TestCalc
      */
     public void testadd()
     {
-    	Calc calc=new Calc(); 
+    	//Calc calc=new Calc(); 
         assertTrue(Calc.add(3,2)==5);
+    }
+    
+    public void testsubtract()
+    {
+        assertTrue(Calc.subtract(3,2)==1);
     }
 }
