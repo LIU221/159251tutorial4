@@ -1,11 +1,11 @@
-package 159251_tutorial;
+package tutorial4;
 
 public class Calc {
 	public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        add(2,3);
-        subtract(5,6);
+//        System.out.println( "Hello World!" );
+//        add(2,3);
+//        subtract(5,6);
     }
     
     public static int add(int a,int b) {
@@ -14,7 +14,7 @@ public class Calc {
     }
     
     public static int subtract(int a,int b) {
-    	int c=a+b;
+    	int c=a-b;
     	return c;
     }
 }

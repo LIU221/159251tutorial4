@@ -2,6 +2,7 @@
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import tutorial4.Calc;
 
 /**
  * Unit test for simple App.
@@ -32,7 +33,6 @@ public class TestCalc
      */
     public void testadd()
     {
-    	//Calc calc=new Calc(); 
         assertTrue(Calc.add(3,2)==5);
     }
     
